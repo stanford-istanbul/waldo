@@ -35,7 +35,7 @@ var getDistance = function(firstX, firstY, secondX, secondY) {
 var addWaldoGame = function(divId) {
   var waldoImage = document.createElement('img');
   var waldoFilename = 'waldo1.jpg';
-  waldoImage.src = 'waldo/' + waldoFilename;
+  waldoImage.src = waldoFilename;
   waldoImage.setAttribute('value', waldoFilename);
 
   document.getElementById(divId).appendChild(waldoImage);
